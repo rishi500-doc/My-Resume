@@ -43,13 +43,16 @@ header{
     
 
 }
-h2,a{
+a{
     cursor: url('cursor-icon.png'),auto;
+    transition: color 0.5s ease, font-size 0.3s ease;
     
 }
-h2:hover{
-    color: transparent;
-    -webkit-text-stroke: 2px rgb(118, 118, 2);
+a:hover{
+    color: rgb(69, 68, 68);
+    font-size: 1.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
     
     
 
